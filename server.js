@@ -12,8 +12,8 @@ app.listen(process.env.PORT || 3000,() => {
     console.log("Server Started");
 });
 
-const pageId = '330094280179298';
-const access_token = 'EAAKhkCsp2c4BO9TDMC2PPC1gvTkYNhZCROnHJaxC9dAhwzFO9eLbzBEOPk2hnfDGN26cBZCzCwtq1uEZCqxLFDmJboYkt5n5iHRAFrvN3ZBlHlTk7RsCHlyT8ZBZCZCIVrOQfc1E9Tg8Nqg36y7VL4UPpc68jScKvO4AzmQ9a9MosFsWisZCZCPaN4EFS8xbisrmD';
+const pageId = 'Your_Page_ID';
+const access_token = 'Your_Page_Access_Token';
 
 
 app.post("/posttopage",(req,res) =>{
